@@ -1,8 +1,8 @@
 package com.videovocabulary.backend.repo;
 
 import com.videovocabulary.backend.model.Tvshow;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface TvshowRepository extends CrudRepository<Tvshow, Integer> {
+public interface TvshowRepository extends JpaRepository<Tvshow, Long> {
 
 }
